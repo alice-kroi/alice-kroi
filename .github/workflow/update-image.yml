@@ -1,0 +1,36 @@
+name: Hourly Update
+on:
+  schedule:
+    - cron: '0 * * * *' # 每小时准点运行
+  workflow_dispatch:
+
+jobs:
+  update-content:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v4
+
+    - name: Set hour values
+      id: set-time
+      run: |
+        CURRENT_HOUR=$(date -u +%-H)
+        HOUR_TEXTS=(
+          "午夜精灵 🦉" "星夜守望 🌌" "凌晨秘境 🌠" "破晓之前 🌄" 
+          "晨曦微露 🌤" "早安世界 🌅" "活力清晨 🏃♀️" "工作启动 💼"
+          "高效上午 📈" "午前冲刺 🚀" "正午艳阳 🌞" "午间小憩 😴"
+          "午后时光 🍵" "灵感时间 💡" "下午茶歇 🍰" "日落之前 🌇"
+          "黄昏时刻 🌆" "晚霞漫天 🌈" "夜幕降临 🌃" "晚餐时间 🍲"
+          "夜间模式 🌙" "创意之夜 🎨" "深夜思考 🤔" "美梦时分 🛌"
+        )
+        echo "HOUR=$CURRENT_HOUR" >> $GITHUB_ENV
+        echo "TEXT=${HOUR_TEXTS[$CURRENT_HOUR]}" >> $GITHUB_ENV
+
+    - name: Replace placeholders
+      run: |
+        sed -i "s/\${{HOUR}}/${{ env.HOUR }}/g; s/\${{TEXT}}/${{ env.TEXT }}/g" README.md
+
+    - name: Commit changes
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: 'Auto update hourly content [skip ci]'
