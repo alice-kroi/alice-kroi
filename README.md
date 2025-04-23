@@ -17,10 +17,7 @@
 | 为什么我会有这种东西 | 哪来的什么描述 |
 
 
-<!-- 社交链接 -->
-## 📫 Let's Connect
-[<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">](https://linkedin.com/in/your-profile)
-[<img src="https://img.shields.io/badge/WeChat-07C160?style=for-the-badge&logo=wechat&logoColor=white">](https://example.com/wechat)
+
 
 <!-- 动态排行榜 -->
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=alice-kroi&layout=compact)
