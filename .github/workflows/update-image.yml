@@ -33,4 +33,4 @@ jobs:
     - name: Commit changes
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
-        commit_message: 'Auto update hourly content [skip ci]'
+        commit_message: 'Auto update hourly content [skip ci]' 
