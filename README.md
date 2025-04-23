@@ -1,16 +1,26 @@
 ## Hi there 👋
 
-<!--
-**alice-kroi/alice-kroi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<!-- 动态统计卡片 -->
+![Alice's GitHub stats](https://github-readme-stats.vercel.app/api?username=alice-kroi&show_icons=true&theme=radical)
 
-Here are some ideas to get you started:
+<!-- 技术栈展示 -->
+## 🛠 Tech Stack
+[![C](https://img.shields.io/badge/-C-00599C?style=flat&logo=c&logoColor=white)](https://en.wikipedia.org/wiki/C_(programming_language))
+[![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
+[![Machine Learning](https://img.shields.io/badge/-ML-FF6F00?style=flat&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+[![Deep Learning](https://img.shields.io/badge/-DL-FF6F00?style=flat&logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<!-- 项目展示 -->
+## 🌟 Featured Projects
+| Project | Description | 
+|---------|-------------|
+| 为什么我会有这种东西 | 哪来的什么描述 |
+
+
+<!-- 社交链接 -->
+## 📫 Let's Connect
+[<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">](https://linkedin.com/in/your-profile)
+[<img src="https://img.shields.io/badge/WeChat-07C160?style=for-the-badge&logo=wechat&logoColor=white">](https://example.com/wechat)
+
+<!-- 动态排行榜 -->
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=alice-kroi&layout=compact)
