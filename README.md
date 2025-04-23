@@ -2,12 +2,13 @@
 
 <!-- 动态时间图片 -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/alice-kroi/alice-kroi/main/assets/images/${{HOUR}}.png" 
+  <img src="https://raw.githubusercontent.com/alice-kroi/alice-kroi/main/assets/images/{{HOUR}}.png" 
        width="500" 
        height="730" 
        alt="Hourly Banner"
        style="border-radius:10px; box-shadow:0 2px 5px rgba(0,0,0,0.2);">
 </div>
+<p align="center">当前时段：{{TEXT}}</p>
 
 <!-- 动态统计卡片 -->
 ![Alice's GitHub stats](https://github-readme-stats.vercel.app/api?username=alice-kroi&show_icons=true&theme=radical)
