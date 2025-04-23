@@ -1,4 +1,14 @@
-# ... existing code ...
+name: Hourly Update
+on:
+  schedule:
+    - cron: '0 * * * *' # 每小时准点运行
+  workflow_dispatch:
+
+jobs:
+  update-content:
+    runs-on: ubuntu-latest
+    steps:
+    # ... existing code ...
     - name: Checkout repo
       uses: actions/checkout@v4
 
