@@ -8,12 +8,8 @@ jobs:
   update-content:
     runs-on: ubuntu-latest
     steps:
-    # ... existing code ...
     - name: Checkout repo
       uses: actions/checkout@v4
-
-    - name: Backup original README.md
-      run: cp README.md README.md.backup # 备份原始的 README.md 文件
 
     - name: Restore original README.md
       run: cp README.md.backup README.md # 每次运行前恢复原始文件
