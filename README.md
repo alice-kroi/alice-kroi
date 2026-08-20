@@ -2,13 +2,13 @@
 
 <!-- 动态时间图片 -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/alice-kroi/alice-kroi/main/assets/images/19.png" 
+  <img src="https://raw.githubusercontent.com/alice-kroi/alice-kroi/main/assets/images/20.png" 
        width="500" 
        height="730" 
        alt="Hourly Banner"
        style="border-radius:10px; box-shadow:0 2px 5px rgba(0,0,0,0.2);">
 </div>
-<p align="center">当前时段：19时</p>
+<p align="center">当前时段：20时</p>
 
 
 
